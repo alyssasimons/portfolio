@@ -13,7 +13,7 @@ body {
 .profile {
     display: flex;
     justify-content: center;
-    margin: 15px 10px;
+    margin: 3px 10px;
 }
 
 .main-body {
@@ -24,6 +24,18 @@ body {
 .top-half {
     max-width: 100%;
     border-bottom: 1px solid rgb(124, 124, 124);
+}
+
+.picture-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-links a {
+    text-align: center;
+    color: rgb(243, 243, 243);
+    margin-right: 5px;
+    font-size: 0.95rem;
 }
 
 .top-half p {
@@ -43,7 +55,7 @@ body {
 .me-top {
     border-radius: 50%;
     border: 5px solid #1f1e1e;
-    max-width: 22%;
+    max-width: 30%;
     max-height: auto;
     margin-top: -62px;
     margin-left: 10px;
