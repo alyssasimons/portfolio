@@ -6,67 +6,101 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Alyssa Simon — Portfolio</title>
 </head>
 <body>
     <div class="profile">
-        <div class="main-body">
-            <div class="top-half">
-                <img class="header" src="assets/nycnight.jpg" alt="Image of NYC">
-                <div class="picture-links">
-                    <div class="picture"> 
-                        <img class="me-top" src="assets/me.jpg" alt="Image of me!">
-                    </div>
-                    <div class="links"> 
-                        <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/alyssasimon" target="_blank">LinkedIn</a>
-                        <i class="fa-solid fa-envelope"></i> <a href="mailto:alyssasimon519@gmail.com"> Email</a>
-                     </div>
-                </div>
-                <div class="top-half-text"> 
-                    <p class="header-name"> <b>Alyssa Simon</b> </p>
-                    <p> Aspiring Full-Stack Developer 💻</p>
-                    <small class="location">📍 Jersey City, New Jersey</small>
-                </div>
-                <div class="navigation"> 
-                    <a href="index.html">About</a>
-                    <a href="public/projects.html">Projects</a>
-                    <a href="public/resume.html">Resume</a>
-                </div> 
+        <div class="header">
+            <div class="logo">
+                <a href="#main"><img src="assets/logo.png" alt="Logo"></a>
             </div>
-            <div class="bottom-half">
-                <p class="tweet"> Hello! 👋🏻
-                    <br>
-                    <br>
-                    I’m passionate about coding functional and intuitive user interfaces, delivering a smooth user experience, and collaborating with others to make something beautiful.
-                    <br>
-                    <br>
-                    I’m currently a senior at New Jersey City University majoring in Computer Science and minoring in Computer and Information Systems.
-                    Based in the New York City Metropolitan area, I am actively seeking opportunities to improve my skills and expand my knowledge within the tech industry, specifically web development!
-                    With my current skills, I intend to contribute new creative ideas to any company and help build simple, yet beautiful and intuitive websites!
-                    <br>
-                    <br>
-                    <span class="skills"> Technical Skills </span>
-                    <br>
-                    <ul class="about-ul">
-                        <li> <img class="skillimg" src="assets/html.png"> </li>
-                        <li> <img class="skillimg" src="assets/css.png"> </li>
-                        <li> <img class="skillimg" src="assets/js.png"> </li>
-                        <li> <img class="skillimg" src="assets/java.png"> </li>
-                        <li> <img class="skillimg" src="assets/python.png"> </li>
-                    </ul>
-                    <ul class="about-ul">
-                        <li> <img class="skillimg" src="assets/vscode.png"> </li>
-                        <li> <img class="skillimg" src="assets/pngegg.png"> </li>
-                        <li> <img class="skillimg" src="assets/github.png"> </li>
-                        <li> <img class="skillimg" src="assets/git.png"> </li>
-                        <li> <img class="skillimg" src="assets/bootstrap.png"> </li>
-                        <li> <img class="skillimg" src="assets/jquery.png"> </li>
-                        <li> <img class="skillimg" src="assets/node.png"> </li>
-                    </ul>
-                </p>
+            <div class="navlinks">
+                <a href="#main">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
             </div>
         </div>
+        <section class="main-body" id="main">
+            <h1> Alyssa Simon </h1>
+            <h3> Aspiring Full-Stack Developer 💻</h3>
+            <div class="links"> 
+                <a href="https://www.linkedin.com/in/alyssasimon" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a class="email" href="mailto:alyssasimon519@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+            </div>
+            <a href="#about"><i class="fa-solid fa-angles-down arrow"></i></a>
+        </section>
+        <section class="about" id="about">
+            <h1>About Me</h1>
+            <p>
+                <p class="about-p">
+                    <img class="me-top" src="assets/me.jpeg" alt="Image of me!">
+                    Hello! 👋🏻 
+                    <br>
+                    I’m currently a senior at New Jersey City University majoring in Computer Science and minoring in Computer and Information Systems.
+                    Based in the New York City Metropolitan area, I am seeking opportunities to learn, enhance, and develop new skills, specifically in web development!
+                    With my current skills, I intend to contribute efficiency, versatility, and new creative ideas to any company to help build intuitive and functional websites! 
+                    <br>
+                    I’m passionate about creating art through code! I love to visually see my creations come to life✨ 
+                    <br>
+                    <br>
+                    <a href="assets/Professional Resume.pdf" target="_blank">View my resume</a>
+                </p>
+                <br>
+                <span class="skills"> Technical Skills </span>
+                <ul class="about-ul">
+                    <li> <img class="skillimg" src="assets/html.png"> </li>
+                    <li> <img class="skillimg" src="assets/css.png"> </li>
+                    <li> <img class="skillimg" src="assets/js.png"> </li>
+                    <li> <img class="skillimg" src="assets/java.png"> </li>
+                    <li> <img class="skillimg" src="assets/python.png"> </li>
+                </ul>
+                <ul class="about-ul">
+                    <li> <img class="skillimg" src="assets/vscode.png"> </li>
+                    <li> <img class="skillimg" src="assets/pngegg.png"> </li>
+                    <li> <img class="skillimg" src="assets/github.png"> </li>
+                    <li> <img class="skillimg" src="assets/git.png"> </li>
+                    <li> <img class="skillimg" src="assets/bootstrap.png"> </li>
+                    <li> <img class="skillimg" src="assets/jquery.png"> </li>
+                    <li> <img class="skillimg" src="assets/node.png"> </li>
+                </ul>
+            </p>
+        </section>
+        <section class="projects" id="projects">
+            <div class="main-project">
+                <h1>Projects</h1>
+                <div class="projectcards"> 
+                    <div class="project-card">
+                        <img class="projectimg" src="assets/gamepicker.png" alt="Game picker project image">
+                        <p>Game Picker</p>
+                        <p>A website application that picks a random game for you when you're indecisive.</p>
+                        <p>Node.js, Express.js, EJS, JavaScript, & CSS</p>
+                        <div class="projectlinks">
+                            <a href="https://github.com/alyssasimons/game-picker" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img class="projectimg" src="assets/slms.png" alt="Student library management system project image">
+                        <p>Student Library Management System</p>
+                        <p>Provisional collaboratively built GUI management system.</p>
+                        <p>Java (Java Swing)</p>
+                        <div class="projectlinks">
+                            <a href="https://github.com/alyssasimons/student-library-management-system" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img class="projectimg" src="assets/lasa.png" alt="Lasa website project image">
+                        <p>Lasa Website</p>
+                        <p>A Filipino recipe website showcasing a few of my mom's recipes!</p>
+                        <p>HTML, CSS, JavaScript, Bootstrap</p>
+                        <div class="projectlinks">
+                            <a href="https://github.com/alyssasimons/Lasa-Website" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://alyssasimons.github.io/Lasa-Website/" target="_blank"><i class="fa-solid fa-rocket"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 <script src="https://kit.fontawesome.com/3a5e006014.js" crossorigin="anonymous"></script>
 <script src="script.js"></script>
