@@ -177,7 +177,7 @@ h1, h3 {
     display: block;
 }
 
-.main-project h1 {
+.projects h1 {
     margin-bottom: 50px;
     padding: 10px 20px;
     max-width: fit-content;
