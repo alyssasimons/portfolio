@@ -27,7 +27,7 @@ h1, h3 {
 }
 
 .about p {
-    max-width: 1100px;
+    max-width: 600px;
     font-size: 1.2rem;
     margin: 0px 50px;
 }
@@ -38,12 +38,18 @@ h1, h3 {
     border: 1px solid rgb(243, 243, 243);
     box-shadow: 0.5px 2px 10px 1px rgb(243, 243, 243);
 }
+
 .about-p a {
     color: rgb(243, 243, 243);
 }
 
 .about-ul {
     flex-wrap: wrap;
+}
+
+.about-main {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo img {
@@ -73,11 +79,9 @@ h1, h3 {
     text-decoration: underline;
 }
 
-.me-top {
+.me-top img {
     max-height: 100%;
-    max-width: 200px;
-    float: right;
-    margin: 30px 0px 0px 20px;
+    max-width: 250px;
     box-shadow: 15px -15px rgb(228, 228, 228);
 }
 
@@ -214,6 +218,7 @@ h1, h3 {
         color: rgb(243, 243, 243);
         margin: 15px 20px 10px 0px;
     }
+
 }
 
 
