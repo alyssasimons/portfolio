@@ -254,6 +254,10 @@ h1, h3 {
         font-size: 1.1rem;
     }
 
+    .skillimg {
+        max-width: 60px;
+    }
+
 }
 /* TODO
 - fix responsiveness of navigation for devices smaller than tablets
