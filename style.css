@@ -250,6 +250,7 @@ h1, h3 {
 
     .about p {
         font-size: 0.9rem;
+        text-align: center;
     }
 
     .logo img {
