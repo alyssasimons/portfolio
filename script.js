@@ -1,5 +1,5 @@
 /* TODO: 
-- use jQuery */
+- make more dynamic with jquery */
 
 const profile = document.querySelector(".profile");
 const arrow = document.querySelector(".arrow");
