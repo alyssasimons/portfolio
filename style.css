@@ -22,7 +22,7 @@ h1, h3 {
     margin: 0;
 }
 
-.main-body, .about, .projects {
+.main-text, .about, .projects {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
