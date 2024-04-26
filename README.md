@@ -2,4 +2,4 @@
 
 a work in progress!
 
-Created using vanilla HTML, CSS, and JavaScript.
+Created using vanilla HTML, CSS, and jQuery.
