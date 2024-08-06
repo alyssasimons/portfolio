@@ -253,8 +253,13 @@ h1, h3 {
     }
 
     .about p {
-        font-size: 0.8rem;
-        text-align: center;
+        font-size: 0.75rem;
+        text-align: justify;
+        text-align-last: center;
+    }
+
+    .about a {
+        font-size: 0.75rem;
     }
 
     .logo img {
